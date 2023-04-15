@@ -1,0 +1,75 @@
+/* Set font styles */
+body {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    background-image: url(back.png);
+}
+
+h1, h2, h3 {
+    font-weight: bold;
+}
+
+/* Set background color and layout */
+.header {
+    background-color: rgb(186, 32, 32);
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    background-image: url(pizza.png);
+}
+
+.topnav {
+    display: flex;
+    margin: 10px;
+    flex-direction: row;
+}
+
+.content {
+    
+    background-color: white;
+    margin: 10px;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.logo img {
+    display: block;
+    margin: 0 auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+/* Style buttons */
+.button {
+    
+    display: inline-block;
+    padding: 3px 15px;
+    margin: auto 3px;
+    font-size: 13px;
+    font-weight: bold;
+    text-decoration: none;
+    background-color: #ffffff;
+    color: #000000;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.button:hover {
+    background-color: #ff0000;
+}
+
+/* Set section styles */
+.section {
+    margin-top: 40px;
+}
+
+.section h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
